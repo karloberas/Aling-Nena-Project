@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+      <link href="/css/bootstrap.min.css" rel="stylesheet">
+      <link href="/css/admin.css" rel="stylesheet">
+      <link href="/css/custom.css" rel="stylesheet">
+      <title>Products : Aling Nena</title>
+  </head>
+  <body>
+    <div class="custom_nav navbar-fixed-top" role="navigation">
+      <div class="navbar-header">
+        <a href="/"><img class="nav_img" src="../media/Nena.png"></a>
+	<a href="/about"><img class="nav_img" src="../media/About.png"></a>
+	<a href="/products"><img class="nav_img" src="../media/products.png"></a>
+        <a href="/admin"><img class="nav_img_ad" src="../media/admin.png"></a>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="admin">
+        <div id="head_title">
+          <h2 style="text-align:center; color:white;">All Products for Sale!</h2>
+        </div>
+        <table class="table table-striped">
+            <thead>
+              <tr>
+                <td>ID</td>
+                <td>Name</td>
+                <td>Price</td>
+                <td>Quantity</td>
+                <td>Sold</td>
+              </tr>
+            </thead>
+            <tbody>
+              <% @products.each do |product| %>
+                <tr>
+                  <td><%= product.id %></td>
+                  <td><%= product.name %></td>
+                  <td><%= product.price %></td>
+                  <td><%= product.quantity %></td>
+                  <td><%= product.sold %></td>
+                  <td><a href="/purchase_product/<%=product.id%>" class="btn btn-default btn-primary">Buy</a></td>
+                </tr>
+	      <% end %>          
+	    </tbody>          
+        </table>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <img src="../media/footer.png">
+  </footer>
+</html>

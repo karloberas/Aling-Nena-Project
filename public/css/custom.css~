@@ -1,0 +1,139 @@
+body {
+  background-image:url('../media/background-texture.jpg');
+}
+
+#home {
+  margin-left:auto;
+  margin-right:auto;
+  background-color: black;
+  width:70%;
+  background: rgba(0, 0, 0, .4);
+  padding-top:10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+#head_title {
+  margin-left:auto;
+  margin-right:auto;
+  background-color: black;
+  width:50%;
+  background: rgba(0, 0, 0, .4);
+  padding-top:10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+#hot_items {
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+.col-sm-offset-2 {
+  margin-top:20px;
+}
+
+#frame1 {
+  margin-left:10%;
+  width:25%;
+  background: rgba(0, 0, 255, .6);
+  padding-top:6px;
+  padding-bottom:6px;
+  float:left;
+  margin-bottom: 60px;
+}
+
+#frame2 {
+  margin-left:6px;
+  margin-right: 6px;
+  background: rgba(255, 255, 0, 1);
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+}
+
+#frame3 {
+  margin-left:5%;
+  width:50%;
+  background: rgba(0, 0, 255, .6);
+  padding-top:6px;
+  padding-bottom:6px;
+  float:left;
+  margin-bottom: 40px;
+}
+
+#frame4 {
+  margin-left:6px;
+  margin-right: 6px; 
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: rgba(255, 255, 0, 1);
+  
+}
+
+#frame5 {
+  margin-left:auto;
+  margin-right:auto;
+  width:40%;
+  background: rgba(0, 0, 255, .6);
+  padding-top:6px;
+  padding-bottom:6px;
+  margin-bottom: 40px;
+}
+
+#frame6 {
+  margin-left:6px;
+  margin-right: 6px; 
+  background: rgba(255, 255, 0, 1);
+  padding-left: 45px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+footer {
+  margin-top:30px;
+}
+
+h2 {
+  text-align:left;
+  color:black;
+  font-size:20px;
+
+}
+
+.admin {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.custom_nav {
+  background-image:url('../media/Headerback.png');
+  height: 200px;
+  margin-bottom: 100px;
+}
+
+.nav_img {
+  height: 150px;
+  width: 120px;
+  margin-top: -20px;
+}
+
+.nav_img_ad {
+  height: 160px;
+  width: 120px;
+  margin-top: -165px;
+  margin-left:1000px;
+}
+
+#home_banner {
+  margin-left: 100px;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
